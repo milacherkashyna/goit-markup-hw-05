@@ -52,7 +52,12 @@
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-btn" type="button">Замовити послугу</button>
+          <button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="modal-btn-close" type="button" data-modal-close>X</button>
+          </div>
         </div>
       </section>
       <!-- Section01 Advantages -->
@@ -113,28 +118,16 @@
           <h2 class="section-title drn">Чим ми займаємося</h2>
           <ul class="directions-list">
             <li class="directions-item">
-              <div class="directions-thumb">
-                <img src="./images/box1.jpg" width="370" alt="Десктопні додатки" />
-                <div class="directions-overlay">
-                  <p class="directions-text">Десктопні додатки</p>
-                </div>
-              </div>
+              <img src="./images/box1.jpg" width="370" alt="Десктопні додатки" />
+              <h2 class="directions-title">Десктопні додатки</h2>
             </li>
             <li class="directions-item">
-              <div class="directions-thumb">
-                <img src="./images/box2.jpg" width="370" alt="Мобільні додатки" />
-                <div class="directions-overlay">
-                  <p class="directions-text">Мобільні додатки</p>
-                </div>
-              </div>
+              <img src="./images/box2.jpg" width="370" alt="Мобільні додатки" />
+              <h2 class="directions-title">Мобільні додатки</h2>
             </li>
             <li class="directions-item">
-              <div class="directions-thumb">
-                <img src="./images/box3.jpg" width="370" alt="Дизайнерські рішення" />
-                <div class="directions-overlay">
-                  <p class="directions-text">Дизайнерські рішення</p>
-                </div>
-              </div>
+              <img src="./images/box3.jpg" width="370" alt="Дизайнерські рішення" />
+              <h2 class="directions-title">Дизайнерські рішення</h2>
             </li>
           </ul>
         </div>
@@ -407,7 +400,7 @@
           </ul>
         </div>
       </div>
-     </footer>
+    </footer>
     <script src="./js/modal.js"></script>
   </body>
 </html>
