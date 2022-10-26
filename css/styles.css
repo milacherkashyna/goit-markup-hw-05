@@ -123,7 +123,7 @@ img {
 .header-menu-link.active {
   color: var(--blue);
 }
-/* голубое подчеркивание*/
+/*  Blue underline */
 .header-menu-link::after {
   position: absolute;
   left: 0;
@@ -147,7 +147,6 @@ img {
 /* Header end */
 
 .hero {
-  /* position: relative; */
   max-width: 1600px;
   margin: 0 auto;
   padding: 200px 0;
@@ -158,15 +157,6 @@ img {
   background-position: center;
   /* background-image: url(../images/img_hero.jpg); */
 }
-/* .hero::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(47, 48, 58, 0.4);
-   } */
 .hero-title {
   max-width: 696px;
   margin: 0 auto;
@@ -177,8 +167,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white);
-  /* position: relative;
-  z-index: 2; */
 }
 .hero-btn {
   display: block;
@@ -194,8 +182,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  /* position: relative;
-  z-index: 2; */
 }
 .backdrop {
   position: fixed;
@@ -213,7 +199,7 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
-.backdrop.is-hidden .modal{
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.2);
   opacity: 0;
 }
@@ -228,8 +214,9 @@ img {
   height: 100%;
   opacity: 1;
   background-color: var(--white);
-  transform: translate(-50%, -50%) scale(1); 
-  transition: transform var(--time-animation) var(--cubic-bezier), opacity var(--time-animation) var(--cubic-bezier);
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform var(--time-animation) var(--cubic-bezier),
+    opacity var(--time-animation) var(--cubic-bezier);
 }
 .modal-btn-close {
   position: absolute;
@@ -246,6 +233,7 @@ img {
   cursor: pointer;
 }
 /* Hero end */
+
 .scr-reader {
   position: absolute;
   white-space: nowrap;
@@ -422,6 +410,7 @@ img {
   border-color: var(--blue);
 }
 /* Main end */
+
 .footer {
   padding: 60px 0;
   background-color: var(--dark-grey);
@@ -509,6 +498,7 @@ img {
   background-color: var(--blue);
 }
 /* Index.html end */
+
 /* Portfolio.html */
 .portfolio-filters {
   list-style: none;
@@ -558,7 +548,6 @@ img {
   display: block;
   transition: box-shadow var(--time-animation) var(--cubic-bezier);
 }
-
 .card-interactive:hover,
 .card-interactive:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
